@@ -37,7 +37,7 @@ class FirstFragment : Fragment() {
     ): View? {
         lateinit var adLoader: AdLoader
 //        ca-app-pub-3940256099942544/2247696110
-        adLoader = AdLoader.Builder(requireContext(), "ca-app-pub-8214596343419753/2692850905")
+        adLoader = AdLoader.Builder(requireContext(), "ca-app-pub-3940256099942544/2247696110")
             .forNativeAd { nativeAd ->
                 val styles =
                     NativeTemplateStyle.Builder().withMainBackgroundColor(ColorDrawable(requireContext().getColor(R.color.background_dark))).build()
